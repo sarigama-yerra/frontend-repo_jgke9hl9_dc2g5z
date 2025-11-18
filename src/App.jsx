@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Walkthrough from './components/Walkthrough'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
 
       {/* Features grid */}
       <Features />
+
+      {/* Interactive walkthrough */}
+      <Walkthrough />
 
       {/* Simple footer */}
       <footer className="mt-16 border-t border-white/10">
